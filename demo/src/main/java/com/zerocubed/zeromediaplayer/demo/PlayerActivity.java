@@ -277,7 +277,7 @@ public class PlayerActivity extends AppCompatActivity implements SurfaceHolder.C
                     Log.i(TAG, String.format("Video size changed, width: %d, height: %d", width,
                             height));
                     if (width != 0 && height != 0) {
-                        mAspectRatioFrameLayoutPlayer.setAspectRatio(width / height);
+                        mAspectRatioFrameLayoutPlayer.setAspectRatio(width * 1.0f / height);
                     }
                 }
             };
