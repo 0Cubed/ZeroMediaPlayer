@@ -6,13 +6,17 @@
         </shape>
     </item>
     <item android:id="@android:id/secondaryProgress">
-        <shape>
-            <solid android:color="#7FFFFFFF"/>
-        </shape>
+        <clip>
+            <shape>
+                <solid android:color="#7FFFFFFF"/>
+            </shape>
+        </clip>
     </item>
     <item android:id="@android:id/progress">
-        <shape>
-            <solid android:color="#FFFFFFFF"/>
-        </shape>
+        <clip>
+            <shape>
+                <solid android:color="#FFFFFFFF"/>
+            </shape>
+        </clip>
     </item>
 </layer-list>
